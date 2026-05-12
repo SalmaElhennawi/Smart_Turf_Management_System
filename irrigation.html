@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Irrigation System | Smart Turf</title>
+
+
+
+  <!-- GOOGLE FONT -->
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+
+
+  <!-- FONT AWESOME -->
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  >
+
+
+
+  <!-- CSS -->
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+<body class="irrigation-body">
+
+
+
+  <!-- =====================================================
+       IRRIGATION EFFECTS
+  ====================================================== -->
+
+  <div class="water-wave-bg"></div>
+
+  <div class="water-fog"></div>
+
+  <div class="sun-light"></div>
+
+
+
+  <!-- =====================================================
+       SIDEBAR
+  ====================================================== -->
+
+  <aside class="sidebar">
+
+
+
+    <!-- LOGO -->
+
+    <div class="logo">
+
+      <i class="fa-solid fa-faucet-drip"></i>
+
+      <h2>
+
+        Smart Irrigation
+
+      </h2>
+
+    </div>
+
+
+
+    <!-- NAVIGATION -->
+
+    <ul>
+
+      <li onclick="navigate('index.html')">
+
+        <i class="fa-solid fa-house"></i>
+
+        <span>
+
+          Dashboard
+
+        </span>
+
+      </li>
+
+
+
+      <li onclick="navigate('green.html')">
+
+        <i class="fa-solid fa-seedling"></i>
+
+        <span>
+
+          Green Areas
+
+        </span>
+
+      </li>
+
+
+
+      <li onclick="navigate('water.html')">
+
+        <i class="fa-solid fa-droplet"></i>
+
+        <span>
+
+          Water Resources
+
+        </span>
+
+      </li>
+
+
+
+      <li class="active">
+
+        <i class="fa-solid fa-faucet-drip"></i>
+
+        <span>
+
+          Irrigation
+
+        </span>
+
+      </li>
+
+
+
+      <li onclick="navigate('analytics.html')">
+
+        <i class="fa-solid fa-chart-line"></i>
+
+        <span>
+
+          Analytics
+
+        </span>
+
+      </li>
+
+
+
+      <li onclick="navigate('maintenance.html')">
+
+        <i class="fa-solid fa-screwdriver-wrench"></i>
+
+        <span>
+
+          Maintenance
+
+        </span>
+
+      </li>
+
+    </ul>
+
+
+
+    <!-- STATUS -->
+
+    <div class="weather-card">
+
+      <h3>
+
+        💧 Irrigation AI Active
+
+      </h3>
+
+
+
+      <p>
+
+        Smart watering systems online
+
+      </p>
+
+    </div>
+
+  </aside>
+
+
+
+  <!-- =====================================================
+       MAIN CONTENT
+  ====================================================== -->
+
+  <main class="main-content">
+
+
+
+    <!-- =====================================================
+         TOP BAR
+    ====================================================== -->
+
+    <div class="top-bar">
+
+
+
+      <div>
+
+        <h1>
+
+          Intelligent Irrigation System
+
+        </h1>
+
+
+
+        <p>
+
+          AI Powered Smart Water Distribution & Scheduling
+
+        </p>
+
+      </div>
+
+
+
+      <div class="top-actions">
+
+
+
+        <button class="primary-btn">
+
+          <i class="fa-solid fa-play"></i>
+
+          Activate Irrigation
+
+        </button>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         HERO SECTION
+    ====================================================== -->
+
+    <section class="water-hero">
+
+
+
+      <!-- LEFT -->
+
+      <div class="water-content">
+
+
+
+        <span class="water-badge">
+
+          💧 FUTURE IRRIGATION TECHNOLOGY
+
+        </span>
+
+
+
+        <h1>
+
+          Smart Automated Irrigation
+
+        </h1>
+
+
+
+        <p>
+
+          Smart Turf AI controls irrigation zones,
+          water schedules, moisture balancing,
+          and climate optimization for maximum
+          sustainability and performance.
+
+        </p>
+
+
+
+        <!-- BUTTONS -->
+
+        <div class="hero-buttons">
+
+
+
+          <button class="primary-btn">
+
+            Open Irrigation
+
+          </button>
+
+
+
+          <button class="secondary-btn">
+
+            Schedule Watering
+
+          </button>
+
+        </div>
+
+
+
+        <!-- STATS -->
+
+        <div class="mini-stats">
+
+
+
+          <div class="mini-card">
+
+            <h3>
+
+              64
+
+            </h3>
+
+
+
+            <p>
+
+              Irrigation Zones
+
+            </p>
+
+          </div>
+
+
+
+          <div class="mini-card">
+
+            <h3>
+
+              96%
+
+            </h3>
+
+
+
+            <p>
+
+              Water Efficiency
+
+            </p>
+
+          </div>
+
+
+
+          <div class="mini-card">
+
+            <h3>
+
+              AI
+
+            </h3>
+
+
+
+            <p>
+
+              Automation
+
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- =====================================================
+           HERO IMAGE
+      ====================================================== -->
+
+      <div class="water-header-image">
+
+
+
+        <img
+          src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=2400"
+          alt="Irrigation System"
+        >
+
+
+
+        <!-- FLOATING CARDS -->
+
+        <div class="water-floating-card water1">
+
+          💧 Water Flow Stable
+
+        </div>
+
+
+
+        <div class="water-floating-card water2">
+
+          🌿 Moisture Balanced
+
+        </div>
+
+
+
+        <div class="water-floating-card water3">
+
+          ☀️ Climate Synced
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         IRRIGATION STATUS
+    ====================================================== -->
+
+    <section class="green-status-grid">
+
+
+
+      <div class="green-status-card">
+
+        <i class="fa-solid fa-faucet"></i>
+
+
+
+        <h2>
+
+          64
+
+        </h2>
+
+
+
+        <p>
+
+          Smart Zones
+
+        </p>
+
+      </div>
+
+
+
+      <div class="green-status-card">
+
+        <i class="fa-solid fa-droplet"></i>
+
+
+
+        <h2>
+
+          96%
+
+        </h2>
+
+
+
+        <p>
+
+          Water Efficiency
+
+        </p>
+
+      </div>
+
+
+
+      <div class="green-status-card">
+
+        <i class="fa-solid fa-clock"></i>
+
+
+
+        <h2>
+
+          Auto
+
+        </h2>
+
+
+
+        <p>
+
+          Scheduling System
+
+        </p>
+
+      </div>
+
+
+
+      <div class="green-status-card">
+
+        <i class="fa-solid fa-cloud-rain"></i>
+
+
+
+        <h2>
+
+          Synced
+
+        </h2>
+
+
+
+        <p>
+
+          Weather AI
+
+        </p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         IRRIGATION ZONES
+    ====================================================== -->
+
+    <section class="dashboard-section">
+
+
+
+      <div class="section-title">
+
+        <h2>
+
+          🌿 Smart Irrigation Zones
+
+        </h2>
+
+
+
+        <p>
+
+          Intelligent automated watering systems
+
+        </p>
+
+      </div>
+
+
+
+      <div class="green-paradise-grid">
+
+
+
+        <!-- CARD -->
+
+        <div class="paradise-card">
+
+
+
+          <img
+            src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1400"
+            alt="Sprinkler"
+          >
+
+
+
+          <div class="paradise-content">
+
+
+
+            <h3>
+
+              Central Irrigation
+
+            </h3>
+
+
+
+            <p>
+
+              AI powered sprinkler systems
+              optimizing water distribution.
+
+            </p>
+
+
+
+            <div class="green-line"></div>
+
+
+
+            <button class="primary-btn">
+
+              Open Zone
+
+            </button>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- CARD -->
+
+        <div class="paradise-card">
+
+
+
+          <img
+            src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=1400"
+            alt="Smart Water"
+          >
+
+
+
+          <div class="paradise-content">
+
+
+
+            <h3>
+
+              Smart Water Flow
+
+            </h3>
+
+
+
+            <p>
+
+              Intelligent pipelines and
+              real time pressure monitoring.
+
+            </p>
+
+
+
+            <div class="green-line"></div>
+
+
+
+            <button class="primary-btn">
+
+              Analyze Flow
+
+            </button>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- CARD -->
+
+        <div class="paradise-card">
+
+
+
+          <img
+            src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1400"
+            alt="Green Irrigation"
+          >
+
+
+
+          <div class="paradise-content">
+
+
+
+            <h3>
+
+              Paradise Irrigation
+
+            </h3>
+
+
+
+            <p>
+
+              Sustainable irrigation systems
+              connected with climate AI.
+
+            </p>
+
+
+
+            <div class="green-line"></div>
+
+
+
+            <button class="primary-btn">
+
+              View System
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         IRRIGATION ANALYTICS
+    ====================================================== -->
+
+    <section class="dashboard-section">
+
+
+
+      <div class="section-title">
+
+        <h2>
+
+          📊 Irrigation Intelligence Analytics
+
+        </h2>
+
+      </div>
+
+
+
+      <div class="analytics-grid">
+
+
+
+        <div class="analytics-card green-analytics">
+
+
+
+          <h3>
+
+            Water Optimization
+
+          </h3>
+
+
+
+          <div class="progress-bar">
+
+            <div
+              class="progress progress3"
+            ></div>
+
+          </div>
+
+
+
+          <p>
+
+            98% Smart Distribution
+
+          </p>
+
+        </div>
+
+
+
+        <div class="analytics-card green-analytics">
+
+
+
+          <h3>
+
+            AI Scheduling
+
+          </h3>
+
+
+
+          <div class="progress-bar">
+
+            <div
+              class="progress progress2"
+            ></div>
+
+          </div>
+
+
+
+          <p>
+
+            Automated watering control
+
+          </p>
+
+        </div>
+
+
+
+        <div class="analytics-card green-analytics">
+
+
+
+          <h3>
+
+            Climate Synchronization
+
+          </h3>
+
+
+
+          <div class="progress-bar">
+
+            <div
+              class="progress progress1"
+            ></div>
+
+          </div>
+
+
+
+          <p>
+
+            Weather adaptive irrigation
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         VIDEO EXPERIENCE
+    ====================================================== -->
+
+    <section class="green-video-section">
+
+
+
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+
+        <source
+          src="https://cdn.coverr.co/videos/coverr-watering-plants-1561562237261?download=1080p"
+          type="video/mp4"
+        >
+
+      </video>
+
+
+
+      <div class="green-video-overlay">
+
+
+
+        <h1>
+
+          Future Irrigation Intelligence
+
+        </h1>
+
+
+
+        <p>
+
+          Advanced AI irrigation systems
+          delivering sustainable water solutions
+          for paradise ecosystems.
+
+        </p>
+
+
+
+        <button class="primary-btn">
+
+          Explore Irrigation Future
+
+        </button>
+
+      </div>
+
+    </section>
+
+
+
+  </main>
+
+
+
+  <!-- JS -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
